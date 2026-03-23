@@ -1,0 +1,1 @@
+Developed code that calculates shear and moment diagrams for loads such as forces, moments, and distributed loads onto a beam. Currently can only calculate diagrams for two supports(one roller and one pin)
