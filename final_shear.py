@@ -2,38 +2,11 @@ import matplotlib.pyplot as plt
 import sympy as sp
 import numpy as np
 from sympy import symbols, cos, pi, sin
-# TEMPORARY TEST INPUTS - remove when done testing
-import sys
 
 
-inputs = [
-   "10",    # beam length
-   "2",     # number of supports
-   "0",     # support 1 position
-   "10",    # support 2 position
-   "1",     # number of forces
-   "no",    # angled force?
-   "-50",   # force magnitude
-   "3",     # force location
-   "1",     # number of moments
-   "40",    # moment magnitude
-   "clockwise",  # moment direction
-   "6",     # moment position
-   "1",     # number of distributed forces
-   "no",    # function load?
-   "1",     # first point position
-   "-20",   # first point magnitude
-   "8",     # second point position
-   "-20",   # second point magnitude
-]
 
 
-inputs = iter(inputs)
-input = lambda _="": next(inputs)
 
-
-inputs = iter(inputs)
-input = lambda _="": next(inputs)
 
 
 def position(position_of, pos):
